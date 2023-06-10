@@ -30,7 +30,7 @@
           </ul>
           <h4>درباره نویسنده</h4>
 
-                 {% thumbnail article.writer.avatar "100x100" quality=100 crop="center"  as image %}
+                 {% thumbnail article.writer.avatar "250x250" quality=100 crop="center"  as image %}
                                <img src="{{ image.url}}" alt="Avatar" class="pull-left">
                                 {% endthumbnail %}
           <a class="teacher-name" href="#"> {{ article.writer }}  </a>
